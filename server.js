@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import connectDB from './config/database.js';
-import restaurantRouter from
+import restaurantRouter from './routes/restaurant-route.js';
 
 dotenv.config();
 const app = express();
